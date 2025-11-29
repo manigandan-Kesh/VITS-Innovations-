@@ -1,0 +1,257 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Index Page */
+body.index {
+  background: url('../images/index-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* About Page */
+body.about {
+  background: url('../images/about-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Services Page */
+body.services {
+  background: url('../images/services-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Portfolio Page */
+body.Whychooseus {
+  background: url('../images/whychooseus-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Contact Page */
+body.ContactUs {
+  background: url('../images/contactus-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Header & Navigation */
+header {
+  background: linear-gradient(90deg, #00416A, #E4E5E6);
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  color: #00416A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #FFD700; /* Gold hover effect */
+  text-decoration: underline;
+}
+
+/* Section Styling */
+/*section {
+  padding: 60px;
+  text-align: center;
+  background-color: rgba(245, 236, 236, 0.356);
+  margin: 40px auto;
+  border-radius: 10px;
+  max-width: 800px;
+}*/
+
+/* Index Page Section */
+body.index section {
+  padding: 60px;
+  text-align: center;
+  background-color: rgba(240, 232, 232, 0.459);
+  border: 2px solid #00416A;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: #5f0483 0px 4px 8px 0px;
+  max-width: fit-content;
+}
+
+/* About Page Section */
+body.about section {
+  padding: 60px;
+  text-align: center;
+  background-color: rgba(46, 188, 231, 0.85); /* light blue tint */
+  border: 2px solid #bad3e2;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: #5f0483 0px 4px 8px 0px;
+  max-width: 700px;
+}
+
+/* Services Page Section */
+body.services section {
+  padding: 60px;
+  text-align: center;
+  background-color: rgba(255, 250, 240, 0.623); /* ivory tint */
+  border: 2px solid #3cdfd1; /* gold accent */
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: #5f0483 0px 4px 8px 0px;
+  max-width: fit-content;
+}
+
+/* whychooseus Page Section */
+body.Whychooseus section {
+  padding: 60px;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.479); /* soft gray */
+  border: 2px solid #333;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: #5f0483 0px 4px 8px 0px;
+  max-width: fit-content;
+}
+
+/* Contact Page Section */
+body.ContactUs section {
+  padding: 60px;
+  text-align: center;
+  background-image: url('../images/contactus-section-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 2px solid #00416A;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: #5f0483 0px 4px 8px 0px;
+  max-width: 400px;
+}
+
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #dde4e9;
+}
+
+body.index h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #072941;
+}
+
+body.services h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #032c38;
+}
+
+body.Whychooseus h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #200cd6bb;
+}
+
+body.ContactUs h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #0b7ea1;
+}
+
+body.ContactUs h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #031920;
+}
+
+
+h2 {
+  font-size: 1.6rem;
+  font-style: oblique;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+body.index p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #f1eff1f6;
+  font-weight: bold;
+}
+
+body.ContactUs p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #01020cf6;
+  font-weight: bold;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 12px;
+  border-left: 5px solid #00416A;
+  text-align: left;
+}
+
+/* Contact Page Styling */
+section p strong {
+  color: #00416A;
+}
+
+/* Footer (optional if needed later) */
+footer {
+  background: #00416A;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
