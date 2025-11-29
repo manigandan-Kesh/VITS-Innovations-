@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Website Design HTML",
+      "file": "${workspaceFolder}/VITS_HTML_CSS/Website Design.HTML"
+    }
+  ]
+}
