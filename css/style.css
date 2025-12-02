@@ -5,6 +5,105 @@
   box-sizing: border-box;
 }
 
+/* Responsive Design: Mobile Compatibility */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .logo {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  ul li {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+  }
+
+  .circle {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
 /* Body Styling */
 body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -255,3 +354,4 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+
